@@ -36,6 +36,7 @@ const typeDefs = gql`
   }
 
   type Query {
+    countPeople(filter: String): Int
     people(filter: String, from: ID, limit: Int): [People]!
   }
 `
@@ -60,6 +61,10 @@ const resolvers = {
   },
 
   Query: {
+    countPeople(context: any, { filter }: PaginationArguments) {
+      return search(people, filter).length
+    },
+
     people(context: any, { filter, from, limit = Infinity }: PaginationArguments) {
       const data = search(people, filter)
       const startIndex = data.findIndex(({ id }) => id === from) + 1
