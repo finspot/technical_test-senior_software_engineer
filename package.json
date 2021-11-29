@@ -1,0 +1,22 @@
+{
+  "name": "technical_test-senior_software_engineer",
+  "version": "1.0.0",
+  "description": "Technical test for senior software engineers candidates",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finspot/technical_test-senior_software_engineer.git"
+  },
+  "author": "Sylvain Reucherand <sylvain@pretto.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finspot/technical_test-senior_software_engineer/issues"
+  },
+  "homepage": "https://github.com/finspot/technical_test-senior_software_engineer#readme",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "prettier": "^2.5.0"
+  }
+}

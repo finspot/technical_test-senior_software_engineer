@@ -1,0 +1,18 @@
+{
+  "name": "@test/server",
+  "version": "1.0.0",
+  "entry": "index.js",
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "concurrently": "^6.4.0",
+    "graphql": "^16.0.1",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "dev:build": "tsc -w",
+    "dev:serve": "nodemon ./index.ts",
+    "start": "concurrently -k yarn:dev:*"
+  }
+}
