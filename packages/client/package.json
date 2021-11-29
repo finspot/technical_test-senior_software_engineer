@@ -2,7 +2,7 @@
   "name": "@test/client",
   "version": "1.0.0",
   "dependencies": {
-    "@pretto/picto": "2.25.0",
+    "@pretto/picto": "3.0.1",
     "@types/react": "^17.0.37",
     "@types/styled-components": "^5.1.15",
     "react": "^17.0.2",

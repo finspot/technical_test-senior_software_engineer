@@ -33,12 +33,12 @@ query People {
 
 **Note**
 
-- Both `countPeople` and `people` have a filter argument built-in, providing a simple case-insensitive searching system. 
+- Both `countPeople` and `people` have a filter argument built-in, providing a simple case-insensitive searching system.
 - `people` has a cursur-based pagination system build-in.
 
 ### The client
 
-The client contains a bunch of components and utility files that will help you through the making of your exercise. 
+The client contains a bunch of components and utility files that will help you through the making of your exercise.
 
 ## What we expect from you?
 
@@ -56,6 +56,7 @@ The client contains a bunch of components and utility files that will help you t
 
 **Notes**
 
+- You may preview all available pictos at https://finspot.github.io/picto/
 - Typescript is optional
 - No time limitation, but we'll ask how long it took you
 - Have fun 🙂

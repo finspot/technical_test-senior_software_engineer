@@ -225,12 +225,13 @@
   resolved "https://registry.yarnpkg.com/@josephg/resolvable/-/resolvable-1.0.1.tgz#69bc4db754d79e1a2f17a650d3466e038d94a5eb"
   integrity sha512-CtzORUwWTTOTqfVtHaKRJ0I1kNQd1bpn3sUh8I3nJDVY+5/M/Oe1DnEWzPQvqq/xPIIkzzzIP7mfCoAjFRvDhg==
 
-"@pretto/picto@^2.25.0":
-  version "2.25.0"
-  resolved "https://registry.yarnpkg.com/@pretto/picto/-/picto-2.25.0.tgz#3cb186b58fb65dd50b1cb27481212597e6c5f894"
-  integrity sha512-ZXNMQrxgszY6e6sT8H75g8Jg0El5BIJDHnGm9TzxKsEyd0OP4V9jmh2P3T7sDX9zngA3g05Zut0R/y6zRCIaQQ==
+"@pretto/picto@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@pretto/picto/-/picto-3.0.1.tgz#6f5adac50ce704cf0fc44f9af1fee7507d432b05"
+  integrity sha512-TTjV/CiaSAhUMBvRHnnGAbFydTWvn9WcgFyGj8z5Ow1Fj0mZICXj2wRGaZosguE2GAb3sNZcLCAEDzPXZSDDgQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
+    "@types/react" "*"
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
